@@ -1,0 +1,10 @@
+{
+  "name": "raum-ueberwachung",
+  "version": "1.0.0",
+  "description": "WebRTC RSM",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-static": "^0.7.10",
+    "socket.io": "^1.2.0"
+  }
+}

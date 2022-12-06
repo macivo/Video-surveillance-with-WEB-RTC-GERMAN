@@ -1,0 +1,139 @@
+/** reset css for all browser */
+body, div, span, applet, object, iframe,
+h1, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: Calibri, serif;
+    text-align: center;
+}
+
+header{
+    min-height: 10%;
+}
+
+h2 {
+    text-align: center;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-image: linear-gradient(55deg, #ff8f27 0%, #5051f6 85%);
+    background-repeat: no-repeat;
+}
+
+.navi {
+    display: block;
+    position: absolute;
+    top: 1em;
+    right: 0;
+    width: 5em;
+    cursor: pointer;
+}
+
+details[open] {
+    display: flex;
+    min-width: 100%;
+    font-size: x-large;
+    background-image: linear-gradient(180deg, #5051f6 0%, #ff8f27 95%);
+    animation-name: fadeInDown;
+    animation-duration: 0.5s;
+}
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-1.25em);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.navi ul {
+    list-style-type: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: xx-small;
+}
+@media screen and (orientation: landscape) and (max-height: 350px){
+    .footer {
+        position: relative;
+    }
+}
+
+/** Main Element for homepage */
+.start {
+    text-align: center;
+    line-height: 2em;
+}
+.start label {
+    display: inline-block;
+    width: 7em;
+    text-align: left;
+    position: relative;
+    bottom: -4px;
+}
+.start-img {
+    width: 8em;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2em;
+}
+.start button {
+    margin-top: 2em;
+}
+
+.errorLabel {
+    color: yellow;
+    font-weight: bold;
+}
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    border-radius: unset;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: #4cabc5;
+    color: white;
+    padding-bottom: 0.2em;
+}
+
+video {
+    background-color: black;
+    max-width: 95%;
+    max-height: 18em;
+}

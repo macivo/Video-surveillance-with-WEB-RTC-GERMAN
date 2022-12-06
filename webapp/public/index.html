@@ -1,0 +1,68 @@
+<!--
+ *   Project 1 (BTI3301) 21, Berner Fachhochschule
+ *   Developers Gruppe 15 : Mohammed Ali, Mac Müller
+ *   Advisor: Stefan Cotting, Triviso AG
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Projekt 1 RMS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/lib/adapter-latest.js"></script>     <!-- USING: original source from: https://webrtc.org-->
+    <script src="../js/lib/jquery-3.6.0.min.js"></script>   <!-- USING: original source from: https://jquery.com-->
+    <script src="/socket.io/socket.io.js"></script>         <!-- USING: original source from: https://socket.io-->
+    <script type="module" src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <details class="navi">
+            <summary>Menü</summary>
+            <ul>
+                <li id="home">Home</li>
+                <!-- <li>Videos</li> -->
+                <!-- <li>Über uns</li> -->
+                <!-- <li>Impressum</li> -->
+             </ul>
+         </details>
+     </header>
+
+     <main>
+         <p>Loading, please wait...</p>
+     </main>
+
+     <footer>
+         <div class="footer">
+             <p>&copy;Projekt 1</p>
+             <p>Mohammed Ali & Mac Müller</p>
+             <p>Berner Fachhochschule</p>
+         </div>
+     </footer>
+
+ <!-- Templates -->
+    <template id="tpl-home">
+        <h2>Willkommen</h2>
+        <p>Raumüberwachung mit Smartphones</p>
+        <img class="start-img" src="../image/start.png" alt="liveStart.png"/>
+        <label class="errorLabel"></label>
+        <form class="start">
+            <label for="deviceName">Gerätename:</label>
+            <input id="deviceName" type="text" name="deviceName">
+            <br>
+            <label for="password">Password:</label>
+            <input id="password" type="password" name="password">
+            <br>
+            <button data-action="start">starten</button>
+        </form>
+    </template>
+
+    <template id="tpl-live">
+        <div>
+            <h2>Live</h2>
+        </div>
+        <label class="errorLabel"></label>
+    </template>
+
+</body>
+</html>

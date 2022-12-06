@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" style="margin: auto; display: block; shape-rendering: auto; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;" width="243" height="117" preserveAspectRatio="xMidYMid">
+<style type="text/css">
+  text {
+    text-anchor: middle; font-size: 98px; opacity: 0;
+  }
+</style>
+<g style="transform-origin: 121.5px 58.5px 0px; transform: scale(2.13043);">
+<g transform="translate(121.5,58.5)">
+  <g transform="translate(0,0)"><g class="path" style="transform: scale(0.91); transform-origin: -27.707px -3.78906px 0px; animation: 1s linear -0.495s infinite normal forwards running breath-43bf887e-6ff3-450c-ad91-370f477fac2c;"><path d="M18.81 0L3.68 0L4.23-11.18L3.68-30.82L10.21-31.97L9.57-11.96L9.89-4.51L19.32-5.24L18.81 0" fill="#ffffff" stroke="none" stroke-width="none" transform="translate(-39.20832061767578,12.194839324951172)" style="fill: rgb(255, 255, 255);"></path></g><g class="path" style="transform: scale(0.91); transform-origin: -12.6641px -3.78906px 0px; animation: 1s linear -0.33s infinite normal forwards running breath-43bf887e-6ff3-450c-ad91-370f477fac2c;"><path d="M23.28-30.82L29.81-31.97L29.16-11.96L29.72 0L23.28 0L23.83-11.18L23.28-30.82" fill="#ffffff" stroke="none" stroke-width="none" transform="translate(-39.20832061767578,12.194839324951172)" style="fill: rgb(255, 255, 255);"></path></g><g class="path" style="transform: scale(0.91); transform-origin: 8.05664px -3.69922px 0px; animation: 1s linear -0.165s infinite normal forwards running breath-43bf887e-6ff3-450c-ad91-370f477fac2c;"><path d="M44.90-14.26L47.10-5.75L47.66-5.75L49.96-13.66L54.79-32.02L60.35-31.19L54.88-12.93L51.29-0.37L42.78 0.23L39.51-12.05L34.18-30.87L40.71-32.02L44.90-14.26" fill="#ffffff" stroke="none" stroke-width="none" transform="translate(-39.20832061767578,12.194839324951172)" style="fill: rgb(255, 255, 255);"></path></g><g class="path" style="transform: scale(0.91); transform-origin: 34.1816px -3.67578px 0px; animation: 1s linear 0s infinite normal forwards running breath-43bf887e-6ff3-450c-ad91-370f477fac2c;"><path d="M81.56 0L64.72 0L65.27-11.18L64.72-31.74L81.97-31.74L81.47-26.82L71.12-26.82L70.84-18.68L80.04-18.68L79.53-13.80L70.66-13.80L70.61-11.96L70.93-4.88L82.06-4.88L81.56 0" fill="#ffffff" stroke="none" stroke-width="none" transform="translate(-39.20832061767578,12.194839324951172)" style="fill: rgb(255, 255, 255);"></path></g></g>
+</g>
+</g>
+<style id="breath-43bf887e-6ff3-450c-ad91-370f477fac2c" data-anikit="">@keyframes breath-43bf887e-6ff3-450c-ad91-370f477fac2c
+{
+  0% {
+    animation-timing-function: cubic-bezier(0.9647,0.2413,-0.0705,0.7911);
+    transform: scale(0.9099999999999999);
+  }
+  51% {
+    animation-timing-function: cubic-bezier(0.9226,0.2631,-0.0308,0.7628);
+    transform: scale(1.02994);
+  }
+  100% {
+    transform: scale(0.9099999999999999);
+  }
+}</style></svg>

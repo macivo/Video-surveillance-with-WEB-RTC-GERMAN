@@ -4,7 +4,7 @@
 
 Stefan Cotting - cis1 04 Raumüberwachung mit Smartphones
 
-**Enwickler**
+**Entwickler**
 
 1. Mohammed Ali - aliam1
 2. Mac Müller - mullk8

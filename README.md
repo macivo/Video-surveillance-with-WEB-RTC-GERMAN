@@ -1,13 +1,8 @@
-## Berner Fachhochschule : Project 1 (BTI3301) 21
+# ![](https://www.bfh.ch/dam/jcr:36ac8a9a-6176-44fe-8e69-064cffb38e5b/logo_l-xs-home-und-footer_de.svg) Bern University of Applied Sciences
+#### Project 1 (BTI3301) 21
+#### Student: Mac Müller, Mohammed Ali
+#### Advisor: Stefan Cotting
 ### Raumüberwachung-P1-Group15
-**Betreuer**
-
-Stefan Cotting - cis1 04 Raumüberwachung mit Smartphones
-
-**Entwickler**
-
-1. Mohammed Ali - aliam1
-2. Mac Müller - mullk8
 
 **Beschreibung**
 
@@ -27,27 +22,27 @@ Die Live-Überwachung sollen aufgezeichnet werden können. Als Erweiterung soll 
 - Alle Geräte sind in einer gleichen Local-Netzwerk-Verbindung
 - [RTC-fähiges Webbrowser](https://caniuse.com/rtcpeerconnection) (wird von meistens Webbrowser unterstützt)
 
-**1. Respository herunterladen**
+**1. Repository herunterladen**
 
 Laden Sie dieses Git-Repository auf einem Computer, den Sie als Webserver verwenden möchten.
 
 **2. Node.js installieren und starten**
 
-- [Node.js](https://nodejs.org/en/download/) auf dem Server herunterladen und installieren 
+- [Node.js](https://nodejs.org/en/download/) auf dem Server herunterladen und installieren
 - Node.js in Ordner "webapp" starten
 ```
   $node server.js
 ```
 **3. Smartphone als Überwachung-Kamera einschalten**
 
-- Auf dem Webbrowser `https//[IP-Adresse des Servers]:3000` aufrufen 
+- Auf dem Webbrowser `https//[IP-Adresse des Servers]:3000` aufrufen
 - Gerätenamen eingeben z.B. WohnzimmerCam
 - Password `test` eingeben
 - Zugriff zur Kamera des Smartphones zulassen
 
 **4. Mit einem Smartphone(Tablet/Smartphone/PC) das Live-Video zuschauen**
 
-- Auf dem Webbrowser `https//[IP-Adresse des Servers]:3000` aufrufen 
+- Auf dem Webbrowser `https//[IP-Adresse des Servers]:3000` aufrufen
 - Password `test` eingeben
 - Zugriff zur Kamera des Smartphones zulassen
 

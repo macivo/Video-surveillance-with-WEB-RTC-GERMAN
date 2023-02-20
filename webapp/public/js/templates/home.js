@@ -18,7 +18,7 @@ import router from "../router.js";
 function renderLogin($comp) {
     const deviceName = document.forms[0].deviceName.value;
     const password = document.forms[0].password.value;
-    //Checking devicename and password are entered
+    //Checking device-name and password are entered
     if(!deviceName || !password){
         $('.errorLabel').text('Geben Sie einen Gerätenamen und das Password ein!');
     } else {
